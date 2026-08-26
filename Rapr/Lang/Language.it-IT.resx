@@ -132,6 +132,9 @@
   <data name="Button_Select_Old" xml:space="preserve">
     <value>Seleziona driver obsoleti</value>
   </data>
+  <data name="Button_Select_Unused" xml:space="preserve">
+    <value>Seleziona driver non &amp;usati</value>
+  </data>
   <data name="Check_Force_Delete" xml:space="preserve">
     <value>Forza eliminazione</value>
   </data>
@@ -182,6 +185,9 @@
   </data>
   <data name="Context_Select_Old" xml:space="preserve">
     <value>Seleziona driver obsoleti</value>
+  </data>
+  <data name="Context_Select_Unused" xml:space="preserve">
+    <value>Seleziona driver non &amp;usati</value>
   </data>
   <data name="Message_Delete_Multiple_Packages" xml:space="preserve">
     <value>Eliminazione di {0} driver dall'archivio dei driver.</value>
@@ -523,4 +529,8 @@ Seleziona la cartella principale di un'installazione o immagine Windows (la cart
   <data name="Update_Failed" xml:space="preserve">
     <value>(Aggiornamento fallito: {0})</value>
     <comment>{0} - Placeholder for error message</comment>
-  </data></root>
+  </data>
+  <data name="Message_No_Unused_Drivers_Found" xml:space="preserve">
+    <value>Non è stato trovato alcun driver senza un dispositivo esistente.</value>
+  </data>
+</root>
